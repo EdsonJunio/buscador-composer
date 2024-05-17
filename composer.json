@@ -1,0 +1,17 @@
+{
+    "name": "edsonjunio/buscador-composer",
+    "description": "Projeto para buscar cursos",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Edsonjunio\\BuscadorComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "EdsonJunio",
+            "email": "69820618+EdsonJunio@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
