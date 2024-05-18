@@ -2,11 +2,6 @@
     "name": "edsonjunio/buscador-composer",
     "description": "Projeto para buscar cursos",
     "type": "library",
-    "autoload": {
-        "psr-4": {
-            "Edsonjunio\\BuscadorComposer\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "EdsonJunio",
@@ -17,5 +12,13 @@
         "guzzlehttp/guzzle": "^7.8",
         "symfony/dom-crawler": "^7.0",
         "symfony/css-selector": "^7.0"
+    },
+    "autoload": {
+        "classmap": [
+            "./Teste.php"
+        ],
+        "psr-4": {
+            "src\\Buscador\\": "src/"
+        }
     }
 }
