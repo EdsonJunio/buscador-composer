@@ -15,6 +15,10 @@ class ComposerStaticInitbc85a07bd79b0436fda4ea4bc6b6e736
     );
 
     public static $prefixLengthsPsr4 = array (
+        's' => 
+        array (
+            'src\\Buscador\\' => 13,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Mbstring\\' => 26,
@@ -37,13 +41,13 @@ class ComposerStaticInitbc85a07bd79b0436fda4ea4bc6b6e736
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
         ),
-        'E' => 
-        array (
-            'Edsonjunio\\BuscadorComposer\\' => 28,
-        ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'src\\Buscador\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
         'Symfony\\Polyfill\\Mbstring\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
@@ -84,10 +88,6 @@ class ComposerStaticInitbc85a07bd79b0436fda4ea4bc6b6e736
         'GuzzleHttp\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
-        ),
-        'Edsonjunio\\BuscadorComposer\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
