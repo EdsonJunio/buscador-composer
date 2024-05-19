@@ -2,14 +2,6 @@
     "name": "edsonjunio/buscador-composer",
     "description": "Projeto para buscar cursos",
     "type": "library",
-    "autoload": {
-        "files": [
-            "./functions.php"
-        ],
-        "psr-4": {
-            "Edsonjunio\\BuscadorComposer\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "EdsonJunio",
@@ -44,5 +36,13 @@
 
     "scripts-descriptions": {
         "check": "Roda as verificações do código. CS, PHAN"
+=======
+    "autoload": {
+        "classmap": [
+            "./Teste.php"
+        ],
+        "psr-4": {
+            "src\\Buscador\\": "src/"
+        }
     }
 }

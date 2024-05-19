@@ -36,7 +36,11 @@ class ComposerStaticInitbc85a07bd79b0436fda4ea4bc6b6e736
         ),
         'V' => 
         array (
-            'VarRepresentation\\' => 18,
+
+        's' => 
+        array (
+            'src\\Buscador\\' => 13,
+
         ),
         'S' => 
         array (
@@ -73,46 +77,7 @@ class ComposerStaticInitbc85a07bd79b0436fda4ea4bc6b6e736
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
         ),
-        'E' => 
-        array (
-            'Edsonjunio\\BuscadorComposer\\' => 28,
-        ),
-        'D' => 
-        array (
-            'Doctrine\\Deprecations\\' => 22,
-            'DeepCopy\\' => 9,
-        ),
-        'C' => 
-        array (
-            'Composer\\XdebugHandler\\' => 23,
-            'Composer\\Semver\\' => 16,
-            'Composer\\Pcre\\' => 14,
-        ),
-        'A' => 
-        array (
-            'AdvancedJsonRpc\\' => 16,
-        ),
-    );
 
-    public static $prefixDirsPsr4 = array (
-        'phpDocumentor\\Reflection\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
-        ),
-        'Webmozart\\Assert\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/webmozart/assert/src',
-        ),
-        'VarRepresentation\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/tysonandre/var_representation_polyfill/src/VarRepresentation',
-        ),
-        'Symfony\\Polyfill\\Php80\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/polyfill-php80',
-        ),
         'Symfony\\Polyfill\\Mbstring\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
@@ -202,6 +167,7 @@ class ComposerStaticInitbc85a07bd79b0436fda4ea4bc6b6e736
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
+
         'Edsonjunio\\BuscadorComposer\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
@@ -240,6 +206,7 @@ class ComposerStaticInitbc85a07bd79b0436fda4ea4bc6b6e736
                 0 => __DIR__ . '/..' . '/netresearch/jsonmapper/src',
             ),
         ),
+
     );
 
     public static $classMap = array (
